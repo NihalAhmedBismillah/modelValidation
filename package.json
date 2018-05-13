@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "author": "test",
+  "license": "test",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/jest": "^22.2.0",
+    "async": "2.6.0",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "lodash": "4.17.4",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "reflect-metadata": "^0.1.12",
+    "tracer": "^0.8.12",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "8.5.2",
+    "gulp": "3.9.1",
+    "gulp-env": "0.4.0",
+    "gulp-eslint": "4.0.0",
+    "gulp-load-plugins": "1.5.0",
+    "gulp-mocha": "5.0.0",
+    "gulp-nodemon": "2.2.1",
+    "gulp-typescript": "3.2.3",
+    "jest": "^21.2.1",
+    "proxyquire": "1.8.0"
+  },
+  "main": "application.js"
+}
